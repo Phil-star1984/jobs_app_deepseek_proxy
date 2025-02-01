@@ -5,7 +5,12 @@ import fetch from "node-fetch";
 const app = express();
 const PORT = 3000;
 
-app.use(cors());
+const corsOptions = {
+  origin: "https://jobs-app-deepseek-frontend.vercel.app",
+  optionsSuccessStatus: 200,
+};
+
+app.use(cors(corsOptions));
 
 app.get("/jobs", async (req, res) => {
   try {
