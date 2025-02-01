@@ -1,0 +1,22 @@
+# Abhängigkeiten
+/node_modules
+
+# Umgebungsvariablen
+.env
+
+# Logs
+*.log
+
+# Betriebssystem-Dateien
+.DS_Store
+
+# Build-Verzeichnis
+/dist
+
+# Temporäre Dateien
+*.tmp
+
+# IDE-spezifische Dateien
+.vscode/
+.idea/
+
